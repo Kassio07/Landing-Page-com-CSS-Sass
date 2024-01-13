@@ -1,0 +1,30 @@
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 120px;
+
+
+    nav ul{
+        display: flex;
+
+        li a{
+            padding: 12px;
+            color: $black-prymary;
+            transition: all 0.5s;
+            font-size: 15px;
+        }
+
+
+       li .selected, a:hover{
+            background-color:$blue-banner1;
+            color: $white-primary;
+        }
+    }
+}

@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: poppins-light;
+  font-weight: 300;
+  font-style: normal;
+  src: url(../files/fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: poppins-regular;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../files/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: poppins-medium;
+  font-weight: 500;
+  font-style: normal;
+  src: url(../files/fonts/Poppins-Medium.ttf);
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li a {
+  padding: 12px;
+  color: #000;
+  transition: all 0.5s;
+  font-size: 15px;
+}
+header nav ul li .selected, header nav ul a:hover {
+  background-color: #41B3E5;
+  color: #FFFFFF;
+}
+
+.slide {
+  background-image: url(../files/img/img1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 670px;
+  width: 100vw;
+  margin-bottom: 200px;
+}
+.slide .sliderAjust {
+  display: flex;
+  flex-direction: column;
+  height: 670px;
+}
+.slide .sliderAjust .slideText {
+  flex: 1;
+}
+.slide .sliderAjust .slideText .text {
+  max-width: 280px;
+  padding: 60px 0;
+}
+.slide .sliderAjust .slideText .text h1 {
+  font-size: 40px;
+  color: #FFFFFF;
+  font-family: poppins-medium;
+  text-shadow: 2px 2px 0 #000;
+}
+.slide .sliderAjust .slideText .text p {
+  font-size: 15px;
+  color: #FFFFFF;
+  margin-top: 25px;
+}
+.slide .sliderAjust .sliderBanner {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+}
+.slide .sliderAjust .sliderBanner .banner1 {
+  background-color: #41B3E5;
+}
+.slide .sliderAjust .sliderBanner .banner2 {
+  background-color: #0284CF;
+}
+.slide .sliderAjust .sliderBanner .banner3 {
+  background-color: #3156A4;
+}
+.slide .sliderAjust .sliderBanner .banner3 .bannerTitle {
+  margin-bottom: 10px;
+}
+.slide .sliderAjust .sliderBanner .banner3 .month {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #FFFFFF;
+  font-size: 14px;
+  color: rgba(232, 239, 240, 0.5960784314);
+  margin-bottom: 20px;
+}
+.slide .sliderAjust .sliderBanner .banner1,
+.slide .sliderAjust .sliderBanner .banner2,
+.slide .sliderAjust .sliderBanner .banner3 {
+  flex: 1;
+  padding: 15px;
+}
+.slide .sliderAjust .sliderBanner .banner1 .bannerTitle,
+.slide .sliderAjust .sliderBanner .banner2 .bannerTitle,
+.slide .sliderAjust .sliderBanner .banner3 .bannerTitle {
+  font-size: 25px;
+  color: #FFFFFF;
+}
+.slide .sliderAjust .sliderBanner .banner1 .bannerText,
+.slide .sliderAjust .sliderBanner .banner2 .bannerText,
+.slide .sliderAjust .sliderBanner .banner3 .bannerText {
+  font-size: 14px;
+  color: rgba(232, 239, 240, 0.5960784314);
+  margin: 12px 0;
+}
+.slide .sliderAjust .sliderBanner .banner1 .btn,
+.slide .sliderAjust .sliderBanner .banner2 .btn,
+.slide .sliderAjust .sliderBanner .banner3 .btn {
+  display: inline;
+  border: 1px solid #FFFFFF;
+  padding: 5px;
+  font-size: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+body {
+  font-family: poppins-light;
+  position: relative;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

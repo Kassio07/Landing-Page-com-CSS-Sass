@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import"./assets/fonts";
+@import"./assets/colors";
+@import"./assets/header";
+@import"./assets/slide";
+
+
+body{
+    font-family: poppins-light;
+    position: relative;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+
+
