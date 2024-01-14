@@ -139,7 +139,6 @@ header nav ul li .selected, header nav ul a:hover {
   flex-direction: row;
   margin-top: 40px;
   height: auto;
-  margin-bottom: 200px;
 }
 .geral .news {
   flex: 2;
@@ -229,6 +228,72 @@ header nav ul li .selected, header nav ul a:hover {
   height: 3px;
   width: 45px;
   background-color: #41B3E5;
+}
+
+footer {
+  background-color: #202020;
+}
+footer .contactFoot {
+  display: flex;
+}
+footer .contactFoot .footCard {
+  flex: 1;
+}
+footer .contactFoot .footCard .bannerFoot1 {
+  background-color: #41B3E5;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 20px;
+}
+footer .contactFoot .footCard .bannerFoot1 h1 {
+  font-size: 18px;
+}
+footer .contactFoot .footCard .bannerFoot1 p {
+  font-size: 13px;
+}
+footer .contactFoot .footCard .banner2 {
+  background-color: #0284CF;
+}
+footer .contactFoot .footCard .banner3 {
+  background-color: #3156A4;
+}
+footer .contactFoot .footCard .titleNameFooter {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+footer .contactFoot .footCard .titleNameFooter .tilteFooter {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+footer .contactFoot .footCard .titleNameFooter .detailsFooter {
+  height: 2px;
+  width: 45px;
+  background-color: #41B3E5;
+}
+footer .contactFoot .footCard .footText {
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+footer .contactFoot .footCard .footText span {
+  color: #3156A4;
+  font-size: 10px;
+}
+footer .contactFoot .footCard .contactFooterCard {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #FFFFFF;
+  padding-right: 20px;
+}
+footer .copyright {
+  border-top: 1px solid #FFFFFF;
+  text-align: center;
+}
+footer .copyright p {
+  font-size: 12px;
+  color: #FFFFFF;
 }
 
 body {
