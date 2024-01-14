@@ -1,0 +1,97 @@
+.geral{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    height: auto;
+
+    margin-bottom: 200px;
+
+    .news{
+        flex: 2;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .newcardAjust{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .cardNews{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex: 1;
+            min-width: 300px;
+            margin-right: 10px;
+
+            .dayNews{
+                display: flex;
+                flex-direction: row;
+                margin: 30px 0;
+                .day, .daysecond{
+                    font-size: 12px;
+                    padding: 5px 10px;
+                    color: $white-primary;
+                }
+
+                .day{
+                    background-color: $blue-banner3;
+                    margin-right: 5px;
+                }
+
+                .daysecond{
+                    background-color: $blue-banner1;
+                }
+            }
+
+            .imgNews{
+                margin-bottom: 30px;
+            }
+            .newsTitle{
+                font-size: 17px;
+                margin-bottom: 10px;
+            }
+            .newsText{
+                font-size: 12px;
+                color: $black-prymary;
+                margin-bottom: 30px;
+            }
+           
+           
+        }
+    }
+    
+    .departaments{
+        flex: 1;
+
+        .cardDeparts{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 30px;
+            .card{
+                width: 150px;
+                height: 150px;
+                background-color: $blue-banner1;
+            }
+        }
+    }
+    .infoTitle{
+        .titleText{
+            font-size: 22px;
+            color: $black-prymary;
+            font-family: poppins-medium;
+        }
+        .details{
+            height: 3px;
+            width: 45px;
+            background-color: $blue-banner1;
+        }
+    }
+}
+
+

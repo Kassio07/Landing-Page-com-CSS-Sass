@@ -54,8 +54,6 @@ header nav ul li .selected, header nav ul a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   height: 670px;
-  width: 100vw;
-  margin-bottom: 200px;
 }
 .slide .sliderAjust {
   display: flex;
@@ -136,9 +134,93 @@ header nav ul li .selected, header nav ul a:hover {
   cursor: pointer;
 }
 
+.geral {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  height: auto;
+  margin-bottom: 200px;
+}
+.geral .news {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.geral .news .newcardAjust {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.geral .news .cardNews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  min-width: 300px;
+  margin-right: 10px;
+}
+.geral .news .cardNews .dayNews {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0;
+}
+.geral .news .cardNews .dayNews .day, .geral .news .cardNews .dayNews .daysecond {
+  font-size: 12px;
+  padding: 5px 10px;
+  color: #FFFFFF;
+}
+.geral .news .cardNews .dayNews .day {
+  background-color: #3156A4;
+  margin-right: 5px;
+}
+.geral .news .cardNews .dayNews .daysecond {
+  background-color: #41B3E5;
+}
+.geral .news .cardNews .imgNews {
+  margin-bottom: 30px;
+}
+.geral .news .cardNews .newsTitle {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.geral .news .cardNews .newsText {
+  font-size: 12px;
+  color: #000;
+  margin-bottom: 30px;
+}
+.geral .departaments {
+  flex: 1;
+}
+.geral .departaments .cardDeparts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 30px;
+}
+.geral .departaments .cardDeparts .card {
+  width: 150px;
+  height: 150px;
+  background-color: #41B3E5;
+}
+.geral .infoTitle .titleText {
+  font-size: 22px;
+  color: #000;
+  font-family: poppins-medium;
+}
+.geral .infoTitle .details {
+  height: 3px;
+  width: 45px;
+  background-color: #41B3E5;
+}
+
 body {
   font-family: poppins-light;
   position: relative;
+  width: 100vw;
 }
 
 a {

@@ -8,11 +8,13 @@
 @import"./assets/colors";
 @import"./assets/header";
 @import"./assets/slide";
+@import"./assets/main";
 
 
 body{
     font-family: poppins-light;
     position: relative;
+    width: 100vw;
 }
 
 a{
