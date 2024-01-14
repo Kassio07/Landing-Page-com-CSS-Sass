@@ -206,6 +206,20 @@ header nav ul li .selected, header nav ul a:hover {
   height: 150px;
   background-color: #41B3E5;
 }
+.geral .departaments .contact {
+  display: flex;
+  flex-direction: column;
+}
+.geral .departaments .contact .infoTitle {
+  margin: 30px 0;
+}
+.geral .departaments .contact .cont {
+  border-bottom: 1px solid #000;
+  padding: 10px 0;
+}
+.geral .departaments .contact .cont i {
+  margin-right: 15px;
+}
 .geral .infoTitle .titleText {
   font-size: 22px;
   color: #000;

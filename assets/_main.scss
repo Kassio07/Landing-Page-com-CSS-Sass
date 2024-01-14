@@ -79,6 +79,22 @@
                 background-color: $blue-banner1;
             }
         }
+
+        .contact{
+            display: flex;
+            flex-direction: column;
+
+            .infoTitle{
+                margin: 30px 0;
+            }
+            .cont{
+                border-bottom: 1px solid $black-prymary;
+                padding: 10px 0;
+                i{
+                    margin-right: 15px;
+                }
+            }
+        }
     }
     .infoTitle{
         .titleText{
