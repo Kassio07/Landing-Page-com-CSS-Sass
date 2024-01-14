@@ -92,3 +92,47 @@
        
     }
 }
+
+@media screen and (max-width: 768px){
+   .slide{
+    margin-bottom: 100px;
+    .sliderAjust{
+
+        .slideText{
+
+            .text{
+                padding: 20px 10px;
+
+                h1{
+                    font-size: 30px;
+                }
+                p{
+                    margin: 20px 0;
+                }
+            }
+        }
+
+        .sliderBanner{
+            flex-direction: column;
+            height: auto;
+
+            .banner1,
+             .banner2, 
+            .banner3{
+
+                .bannerTitle{
+                    font-size: 20px;
+                }
+
+                .bannerText{
+                    font-size: 12px;
+                }
+            }
+        }
+
+        
+    }
+   }
+
+  
+}

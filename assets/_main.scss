@@ -110,3 +110,44 @@
 }
 
 
+@media screen and (max-width: 768px){
+    .geral{
+        padding: 10px;
+
+        .news{
+            flex: 1;
+            .newcardAjust{
+
+                .cardNews{
+
+                    .newsTitle{
+
+                        h2{
+                            font-size: 1.3em;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .infoTitle{
+            .titleText{
+                    font-size: 18px;
+            }
+        }
+
+        .departaments{
+
+            .contact{
+
+                .cont{
+                    font-size: 0.8rem;
+                    
+                }
+            }
+        }
+    }
+    
+}
+
+

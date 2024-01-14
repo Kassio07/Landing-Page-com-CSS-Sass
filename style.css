@@ -48,6 +48,16 @@ header nav ul li .selected, header nav ul a:hover {
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  header img {
+    width: 170px;
+    padding-top: 28px;
+  }
+}
 .slide {
   background-image: url(../files/img/img1.jpg);
   background-position: center;
@@ -134,6 +144,34 @@ header nav ul li .selected, header nav ul a:hover {
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  .slide {
+    margin-bottom: 100px;
+  }
+  .slide .sliderAjust .slideText .text {
+    padding: 20px 10px;
+  }
+  .slide .sliderAjust .slideText .text h1 {
+    font-size: 30px;
+  }
+  .slide .sliderAjust .slideText .text p {
+    margin: 20px 0;
+  }
+  .slide .sliderAjust .sliderBanner {
+    flex-direction: column;
+    height: auto;
+  }
+  .slide .sliderAjust .sliderBanner .banner1 .bannerTitle,
+  .slide .sliderAjust .sliderBanner .banner2 .bannerTitle,
+  .slide .sliderAjust .sliderBanner .banner3 .bannerTitle {
+    font-size: 20px;
+  }
+  .slide .sliderAjust .sliderBanner .banner1 .bannerText,
+  .slide .sliderAjust .sliderBanner .banner2 .bannerText,
+  .slide .sliderAjust .sliderBanner .banner3 .bannerText {
+    font-size: 12px;
+  }
+}
 .geral {
   display: flex;
   flex-direction: row;
@@ -230,6 +268,23 @@ header nav ul li .selected, header nav ul a:hover {
   background-color: #41B3E5;
 }
 
+@media screen and (max-width: 768px) {
+  .geral {
+    padding: 10px;
+  }
+  .geral .news {
+    flex: 1;
+  }
+  .geral .news .newcardAjust .cardNews .newsTitle h2 {
+    font-size: 1.3em;
+  }
+  .geral .infoTitle .titleText {
+    font-size: 18px;
+  }
+  .geral .departaments .contact .cont {
+    font-size: 0.8rem;
+  }
+}
 footer {
   background-color: #202020;
 }
@@ -296,6 +351,12 @@ footer .copyright p {
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+  footer .contactFoot {
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+}
 body {
   font-family: poppins-light;
   position: relative;

@@ -75,3 +75,13 @@ footer{
 
     
 }
+
+@media screen and (max-width: 768px){
+    footer{
+
+        .contactFoot{
+            flex-direction: column;
+            padding: 0px 10px;
+        }
+    }
+}
